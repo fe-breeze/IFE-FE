@@ -5,7 +5,7 @@
     <html lang="en">
 
     <head>
-        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Document</title>
         <style>
         body {
@@ -22,7 +22,7 @@
         header img {
             margin-left: 40px;
             margin-bottom: 0;
-            float: right;
+            float: left;
             height: 80px;
         }
         
@@ -91,6 +91,150 @@
             font-size: 16px;
             line-height: 2;
         }
+        
+        .project li {
+            list-style-type: none;
+            margin-top: 15px;
+        }
+        
+        .picture {
+            width: 250px;
+        }
+        
+        .picture li {
+            list-style-type: none;
+            margin-top: 20px;
+            border: 1px solid black;
+        }
+        
+        .picture li p {
+            text-align: center;
+        }
+        
+        .picture img {
+            border: 1px solid black;
+            height: 150px;
+            width: 180px;
+            display: block;
+            margin: 10px auto;
+        }
+        
+        table {
+            width: 100%;
+            border: 1px solid black;
+            background-color: white;
+            text-align: left;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        
+        table tr {
+            height: 25px;
+        }
+        
+        .head {
+            font-weight: bold;
+            color: white;
+            background-color: black;
+        }
+        
+        .foot {
+            background-color: gray;
+        }
+        
+        .section2 {
+            width: 90%;
+            margin: 0 auto;
+            border-top: 1px solid gray;
+            border-left: 1px solid gray;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            margin-left: 40px;
+        }
+        
+        .title {
+            font-size: 14px;
+            color: black;
+            border-left: 2px solid black;
+            padding-left: 20px;
+            line-height: 30px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+        }
+        
+        dl {
+            margin-left: 20%;
+            overflow: hidden;
+        }
+        
+        dd {
+            float: left;
+            margin-left: 0;
+            font-size: 10px;
+        }
+        
+        .item1 {
+            float: left;
+            clear: left;
+            font-size: 12px;
+            line-height: 24px;
+            height: 24px;
+            width: 150px;
+            text-align: right;
+            margin-right: 16px;
+        }
+        
+        input {
+            line-height: 18px;
+        }
+        
+        .item2 {
+            clear: left;
+            float: left;
+            font-size: 10px;
+            line-height: 24px;
+            height: 24px;
+            margin-right: 16px;
+            width: 150px;
+            text-align: right;
+        }
+        
+        .geshi {
+            height: 15px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 10px;
+        }
+        
+        .area {
+            font-size: 16px;
+            text-align: left;
+            margin-top: 10px;
+        }
+        
+        .queren {
+            width: 88%;
+            height: 40px;
+            border: 1px solid blue;
+            color: white;
+            background-color: blue;
+            border-radius: 12px;
+            margin-left: 70px;
+            margin-bottom: 20px;
+        }
+        
+        .banquan {
+            width: 94%;
+            line-height: 50px;
+            border: 1px solid black;
+            color: white;
+            background-color: black;
+            text-align: center;
+            font-size: 12px;
+            margin-left: 50px;
+            margin-top: 20px;
+            border-radius: 12px;
+        }
         </style>
     </head>
 
@@ -116,16 +260,135 @@
                     <br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://baidu.com" target="_blank">这里有一个链接连接到百度，在新网页中打开</a>，这是一个很长很长的段落，这是一个很长很长的段落，<em>这里被强调了</em>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有一个粗体字，</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落.</p>
             </div>
         </section>
-        <section>
+        <section class="third">
             <div class="wrapper">
                 <h1 class="biaoti1">另一篇文章一级标题</h1>
                 <h2 class="biaoti2">文章二级标题</h2>
                 <p class="p1">文章作者 &nbsp;文章发表时间</p>
-                <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了
+                <p class="p2">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了
                     <br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://baidu.com" target="_blank">这里有一个链接连接到百度，在新网页中打开，</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有一个粗体字，</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
                 <img src="./img/201607191310274eec0_550.jpg" alt="巴图" title=" A Kind Boy">
+                <ul class="project">
+                    <li>项目列表1</li>
+                    <li>项目列表2</li>
+                    <li>项目列表3</li>
+                </ul>
             </div>
         </section>
+        <section>
+            <div class="wrapper">
+                <h1>图片</h1>
+                <ul class="picture">
+                    <li>
+                        <p>好看的图片</p>
+                        <img src="./img/201607191310274eec0_550.jpg" alt="巴图" title=" A Kind Boy"></li>
+                    <li>
+                        <p>好看的图片</p>
+                        <img src="./img/201607191310274eec0_550.jpg" alt="巴图" title=" A Kind Boy"></li>
+                    <li>
+                        <p>好看的图片</p>
+                        <img src="./img/201607191310274eec0_550.jpg" alt="巴图" title=" A Kind Boy"></li>
+                    <li>
+                        <p>好看的图片</p>
+                        <img src="./img/201607191310274eec0_550.jpg" alt="巴图" title=" A Kind Boy"></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <h1 class="biaoti1">最后一篇文章一级标题</h1>
+                <h2 class="biaoti2">文章二级标题</h2>
+                <p class="p1">文章作者&nbsp; 文章发表时间</p>
+                <p class="p2">下面是一个表格，我这里给表格加了一个border="1"，好让你看出来是个表格，你们不用写html的时候不用加</p>
+                <table border="1">
+                    <thead class="head">
+                        <tr>
+                            <td>表头</td>
+                            <td>表头</td>
+                            <td>表头</td>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>表内容单元格</td>
+                        <td>表内容单元格</td>
+                        <td><a href="http://ifebaidu.com">操作</a></td>
+                    </tr>
+                    <tr>
+                        <td>表内容单元格</td>
+                        <td>表内容单元格</td>
+                        <td><a href="http://ifebaidu.com">操作</a></td>
+                    </tr>
+                    <tr>
+                        <td>表内容单元格</td>
+                        <td>表内容单元格</td>
+                        <td><a href="http://ifebaidu.com">操作</a></td>
+                    </tr>
+                    <tr>
+                        <td>表内容单元格</td>
+                        <td>表内容单元格</td>
+                        <td><a href="http://ifebaidu.com">操作</a></td>
+                    </tr>
+                    <footer>
+                        <tr>
+                            <td class="foot">总计</td>
+                            <td class="foot" colspan="2">1000</td>
+                        </tr>
+                    </footer>
+                </table>
+            </div>
+        </section>
+        <section class="section2">
+            <h2 class="title">这里以后是一个侧栏，这是侧栏的标题</h2>
+            <dl>
+                <dt class="item1">请输入邮箱地址</dt>
+                <dd>
+                    <input type="text" name="email" value="这是一个文本输入框">
+                    <div class="geshi">邮箱地址请按要求格式输入</div>
+                </dd>
+                <dt class="item1">请输入密码</dt>
+                <dd>
+                    <input type="password" name="password" value="12345678">
+                </dd>
+                <dt class="item1">请重复输入密码</dt>
+                <dd>
+                    <input type="password" name="password" value="12345678">
+                    <div class="geshi">密码为6-16位字母与数字结合</div>
+                </dd>
+                <dt class="item2">性别</dt>
+                <dd>
+                    <label>男</label>
+                    <input type="radio" name="sex" value="male">
+                    <label>女</label>
+                    <input type="radio" name="sex" value="female">
+                </dd>
+                <dt class="item2">城市</dt>
+                <dd>
+                    <select name="city" id="">
+                        <option value="北京">北京</option>
+                        <option value="上海">上海</option>
+                        <option value="西安">西安</option>
+                    </select>
+                </dd>
+                <dt class="item2">爱好</dt>
+                <dd>
+                    <input type="checkbox" name="sport">
+                    <label>运动</label>
+                    <input type="checkbox" name="art">
+                    <label>艺术</label>
+                    <input type="checkbox" name="science">
+                    <label>科学</label>
+                </dd>
+                <dt class="item2">个人描述</dt>
+                <dd>
+                    <textarea class="area" cols="80" rows="4">这是一个多行输入框，请输入您的个人描述信息。
+                    </textarea>
+                </dd>
+            </dl>
+            <input class="queren" type="button" name="button" value="确认提交">
+        </section>
+        <footer class="banquan">
+            版权所有&copy;
+        </footer>
     </body>
 
     </html>
