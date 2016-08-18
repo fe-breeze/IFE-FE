@@ -1,10 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
     
+    .container {
+        width: 75%;
+        height: auto;
+        margin-left: 40px;
+        overflow: auto;
+    }
+    
+    .baidu {
+        font-size: 12px;
+        font-family: 'SimHei';
+        clear: left;
+        float: left;
+        border: 1px solid red;
+        line-height: 100px;
+        height: 60px;
+        width: 100px;
+        background-color: #FF7F50;
+        text-align: left;
+    }
+    
+    .date {
+        clear: right;
+        font-size: 12px;
+        font-family: SimHei;
+        float: right;
+        border: 1px solid black;
+        margin-top: 60px;
+        border-style: none;
+    }
+    
+    .wrapper {
+        width: 75%;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .photo {
+        width: 90%;
+        height: 300px;
+        float: left;
+        margin-top: 20px;
+    }
+    
+    .wrapper1 {
+        width: 30%;
+        height: auto;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    
+    .title1 {
+        font-size: 20px;
+        text-decoration: underline;
+        float: left;
+    }
+    
+    .title2 {
+        font-size: 20px;
+        text-decoration: underline;
+        clear: left;
+        float: left;
+    }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <p class="baidu">ife.baidu.com </p>
+        <p class="date">2016.03.06
+        </p>
+        <div class="wrapper">
+            <img class="photo" src="images/task_1_6_1_03.png" alt="view">
+            <div class="wrapper1">
+                <hr>
+                <h2 class="title1">ABOUT</h2>
+                <br>
+                <h2 class="title2">TECHNOLOGE</h2>
+                <p class="p3">About technologe about technologe about technologe</p>
+                <p class="num">700</p>
+                <div>
+                    <p class="p5">3.2</p>
+                    <p class="p6">css</p>
+                    <p class="p7">csscsscsscsscss</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
