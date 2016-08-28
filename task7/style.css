@@ -1,0 +1,96 @@
+body {
+    font-family: 'Heiti SC'
+}
+
+header {
+    height: 60px;
+}
+
+header>img {
+    width: 28px;
+    height: 34px;
+    float: left;
+    margin: 0;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+header>h1 {
+    color: #000;
+    font-size: 24px;
+    float: left;
+    margin: 0;
+    line-height: 60px;
+}
+
+.nav {
+    margin-right: 40px;
+    float: right;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav li {
+    float: left;
+    text-align: center;
+    width: 90px;
+}
+
+.nav li a {
+    color: #534141;
+    display: inline-block;
+    line-height: 60px;
+    width: 64px;
+    text-decoration: none;
+}
+
+.nav li:first-child a{
+    border-bottom: 4px solid #FF0000;
+    color:#DF393E;
+}
+.nav li:last-child a{
+color: #DF393E;
+} 
+.nav li:last-child a img{
+  margin-right: 6px;
+  width:22%;
+  margin-top: 20px;
+}
+.hello{
+  position: relative;
+  color:#FFF;
+}
+.hello img{
+  width:100%;
+}
+.hello h1{
+  position: absolute;
+  font-size: 60px;
+  top:300px;
+  left:120px; 
+}
+.hello h2{
+  font-size: 22px;
+  font-weight: normal;
+  position: absolute;
+  top:400px;
+  left:120px;
+  line-height: 30px;
+}
+.hello>div{
+  position: absolute;
+  top:540px;
+  left:120px;
+  width:350px;
+  height:60px;
+  background-color:#DF393E;
+  font-size: 35px;
+  text-align: center;
+}
+.hello>div>a{
+  display: block;
+  line-height: 60px;
+  color: white;
+  text-decoration: none;
+}
