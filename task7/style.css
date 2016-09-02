@@ -250,9 +250,9 @@ header > h1 {
     height: 3.5%;
 }
 
-.resar input {
+.resar a {
     font-size: 14px;
-    line-height: 30px;
+    line-height: 36px;
     position: absolute;
     top: 170px;
     left: 73%;
@@ -260,6 +260,7 @@ header > h1 {
     text-align: center;
     color: white;
     border: none;
+    text-decoration: none;
     background-color: #df393e;
 }
 
@@ -306,7 +307,7 @@ header > h1 {
 .times img {
     position: relative;
     float: left;
-    width: 60%;
+    width: 67%;
     height: 550px;
     margin-top: 100px;
 }
@@ -347,7 +348,7 @@ header > h1 {
     position: relative;
     float: right;
     overflow: hidden;
-    width: 40%;
+    width: 33.3%;
     height: 550;
 }
 
@@ -355,7 +356,7 @@ header > h1 {
     font-size: 25px;
     position: absolute;
     top: 210px;
-    left: 71%;
+    left: 80%;
     color: black;
 }
 .theme span{
@@ -366,8 +367,8 @@ header > h1 {
     line-height: 30px;
     position: absolute;
     top: 270px;
-    left: 65%;
-    color: #e8e8e8;
+    left: 75%;
+    color: gray;
 }
 
 .right input {
@@ -375,7 +376,7 @@ header > h1 {
     line-height: 35px;
     position: absolute;
     top: 440px;
-    left: 72%;
+    left: 82%;
     display: block;
     width: 110px;
     text-align: center;
@@ -386,31 +387,31 @@ header > h1 {
 .circle1 {
     position: absolute;
     top: 500px;
-    left: 74%;
+    left: 84%;
     width: 10px;
     height: 10px;
     border: 1px solid #e8e8e8;
     border-radius: 50%;
-    background-color: #e8e8e8;
+    background-color: gray;
 }
 
 .circle2 {
     position: absolute;
     top: 500px;
-    left: 76%;
+    left: 86%;
     width: 10px;
     height: 10px;
-    border: 1px solid #e8e8e8;
+    border: 1px solid gray;
     border-radius: 50%;
 }
 
 .circle3 {
     position: absolute;
     top: 500px;
-    left: 78%;
+    left: 88%;
     width: 10px;
     height: 10px;
-    border: 1px solid #e8e8e8;
+    border: 1px solid gray;
     border-radius: 50%;
 }
 
@@ -508,7 +509,8 @@ header > h1 {
     overflow: hidden;
     width: 33%;
     height: 450px;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
+
 }
 
 .content-nega {
